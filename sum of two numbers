@@ -1,0 +1,18 @@
+2.Take two numbers and print the sum of both.
+code:
+import java.util.*;
+class leapyear{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+       
+        System.out.println("Enter the first number");
+        int a= scanner.nextInt();
+        System.out.println("Enter the second number");
+        int b= scanner.nextInt();
+        int d=a+b;
+            System.out.println("The sum of the first and second number "+d);
+        
+        
+        
+    }
+}
